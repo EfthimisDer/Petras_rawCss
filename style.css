@@ -509,6 +509,7 @@ main {
     position: relative;
     padding: 0.75rem 1.25rem;
     transition: all 200ms ease-in-out;
+    min-height: 400px;
   }
 
   #blog p {
@@ -545,12 +546,14 @@ main {
   }
   .card .card-info .card-about .card-tag.tag-news {
     background: #36b37e;
+    min-width: 100px;
   }
   .card .card-info .card-about .card-tag.tag-deals {
     background: #ffab00;
+    min-width: 100px;
   }
   .card .card-info .card-about .card-tag.tag-politics {
-    width: 71px;
+    width: 100px;
     background: #ff5630;
   }
   .card .card-info .card-title {
@@ -592,23 +595,18 @@ main {
   
   .card-1 .card-img,
   .card-1 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/Qm_n6aoYzDs);
+    background-image: var(--card-img-hovered-overlay), url(https://blogger.googleusercontent.com/img/a/AVvXsEiUGBzYbnf1PbftYi0EQMJHoNfx5CuG-OwvTJhl9c_D0g1Bhrg7ih_AYLA6lTfb6mscDNygVONNTe5XOz_YNkYAfq1aSVQLJF0zkc7QkbeDBM6HwGenchhMCuwewW7xO99CTp8W_iAN7SdQUAcEac-GBEq30DxwEsj4knVgbC86L0fY83AbU95-M3wNIw=w490);
   }
   
   .card-2 .card-img,
   .card-2 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/C-v1p2DTakA);
+    background-image: var(--card-img-hovered-overlay), url(https://blogger.googleusercontent.com/img/a/AVvXsEi8wd1zVXSpck9QBOpv7BXYbbWcaOwqR6mkEM4l7CmGjJcoWPEe9uQT6YL1FHLVpaWJYxQMoJjuzxmFOfRMqgM0tv3aSBjqNvX7xUR8EV3W7AZeZjSsyag9BHkR_4M9KG7bxa3K7Cc9v0SZzA-fPEMTiv8XXijaFx7N2xkaRs4Z1mFyedVysZsW5mjzAQ=w490);
   }
   
   .card-3 .card-img,
   .card-3 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/V0L1LH7qWOQ);
+    background-image: var(--card-img-hovered-overlay), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.elxicon.com%2Fuploads%2F1%2F0%2F5%2F3%2F105315381%2Flogo-ktimatologio2_orig.png&f=1&nofb=1&ipt=c64a72a8c65ba71e14a99c911d93e9ff5184083007f32d9eb23dbcdfc51d8cf9&ipo=images);
   }
-  
-  .card-4 .card-img,
-  .card-4 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/zAi2Is48-MA);
-}
 
 @media screen and (max-width: 400px) {
   #blog {
